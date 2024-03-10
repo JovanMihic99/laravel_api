@@ -18,7 +18,6 @@ return new class extends Migration
             $table->string('status'); // Billed, Paid, Void
             $table->date('billed_date');
             $table->date('paid_date')->nullable();
-
             $table->timestamps();
         });
     }
